@@ -1,0 +1,89 @@
+.card {
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+    transition: 1s;
+    color: black !important;
+}
+
+.span {
+    width: 300px;
+    height: 5px;
+    background-color: blue;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px blue;
+
+}
+
+.fao {
+    text-shadow: 0 0 3px white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.card:hover .card-img-top {
+    transition: 1.5s;
+    transform: scale(1.2);
+}
+
+.card:hover {
+    box-shadow: 0 0 10px white;
+}
+
+.card-img-top {
+    height: 200px !important;
+}
+
+.staricon {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    font-size: 30px;
+    color: white !important;
+    animation: rotateIn 2s infinite;
+    /* referring directly to the animation's @keyframe declaration */
+    /* animation-duration: 2s initial; */
+    /* don't forget to set a duration! */
+    /* box-shadow: 2px 2px 6px white; */
+}
+
+.staricon2 {
+    position: absolute;
+    left: 50px;
+    bottom: 30px;
+    font-size: 30px;
+    color: white !important;
+    animation: rotateIn 2s infinite;
+    /* box-shadow: 2px 2px 6px white; */
+}
+
+.staricon3 {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 30px;
+    color: white !important;
+    animation: rotateIn 2s infinite;
+    /* box-shadow: 2px 2px 6px white; */
+}
+
+.staricon4 {
+    position: absolute;
+    right: 50px;
+    bottom: 40px;
+    font-size: 30px;
+    color: white !important;
+    animation: rotateIn 2s infinite;
+    /* box-shadow: 2px 2px 6px white; */
+}
+
+
+
+.rell {
+    position: relative;
+}
+
+.qorabu {
+    background-color: black;
+}

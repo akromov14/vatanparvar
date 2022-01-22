@@ -1,0 +1,58 @@
+.header {
+    height: 100vh !important;
+    position: relative;
+}
+
+.carousel {
+    height: 400px !important;
+}
+
+.slide {
+    height: 100% !important;
+}
+
+.carousel-inner {
+    height: 100% !important;
+
+}
+
+.imgbu {
+    object-position: center center !important;
+}
+
+.absolute {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.57);
+    z-index: 11111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abb {
+    width: 500px;
+    color: white;
+    font-size: 25px !important;
+    font-weight: bold;
+    text-shadow: 0 0 2px white;
+}
+
+.carousel-control-next-icon {
+    position: relative !important;
+    z-index: 100000000000;
+}
+
+.carousel-control-prev-icon {
+    position: relative;
+}
+
+
+.carousel-caption {
+    z-index: 100000000;
+    color: white !important;
+    font-size: 25px;
+}

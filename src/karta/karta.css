@@ -1,0 +1,25 @@
+.karta {
+    min-height: 100vh;
+    background: url('https://telegra.ph/file/993d86e4e10ea9f39bc64.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.charchash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.556);
+}
+
+.charvhash2 {
+    position: relative;
+}

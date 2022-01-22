@@ -1,0 +1,15 @@
+.container-fluid {
+    box-shadow: 0 0 1px black !important;
+}
+
+.col-3 {
+    border-right: 0px !important;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+.pp {
+    padding: 20px;
+}

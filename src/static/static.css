@@ -1,0 +1,39 @@
+.section {
+    height: 80vh;
+    padding: 20px 0 20px 0;
+    background: url('https://vatanparvar.uz/wp-content/uploads/2021/07/news-3-1.jpg');
+    position: relative;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.row {
+    margin: 20px 0 20px 0;
+    color: white;
+}
+
+.col-3 {
+    border-right: 3px solid blue;
+}
+
+.abbb {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.529);
+}
+
+.bu {
+    position: relative;
+}
